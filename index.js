@@ -5,8 +5,8 @@ const app = express();
 const PORT = 3000;
 
 // User details
-const full_name = "John Doe";
-const dob = "17091999"; // ddmmyyyy
+const full_name = "Sonu kumar";
+const dob = "25032004"; // ddmmyyyy
 
 app.use(bodyParser.json());
 
@@ -58,8 +58,8 @@ app.post("/process", (req, res) => {
     const response = {
       is_success: true,
       user_id: `${full_name.toLowerCase().replace(/\s+/g, "_")}_${dob}`,
-      email: "john@xyz.com",
-      roll_number: "ABCD123",
+      email: "sonu2399.be22@chitkara.edu.in",
+      roll_number: "2210992399",
       odd_numbers,
       even_numbers,
       alphabets,
